@@ -406,7 +406,7 @@ class PagewiseState<T> extends State<Pagewise<T>> {
 class PagewiseLoadController<T> extends ChangeNotifier {
   List<T>? _loadedItems;
   late List _appendedItems;
-  int _numberOfLoadedPages=0;
+  int _numberOfLoadedPages = 0;
   bool? _hasMoreItems;
   Object? _error;
   late bool _isFetching;
